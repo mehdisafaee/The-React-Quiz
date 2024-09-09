@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Some Tips
+
+This Project is Not responsive.
+
+focus of this is on useReduce Hook.
+
+I've used Fake API with "json-server" Please run it with command "npm run server" firstly.
+
 ## Available Scripts
 
 In the project directory, you can run:
