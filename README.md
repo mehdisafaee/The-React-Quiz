@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This Project is Not responsive.
 
-focus of this is on useReduce Hook.
+focus of this is on useReducer Hook.
 
 I've used Fake API with "json-server" Please run it with command "npm run server" firstly.
 
