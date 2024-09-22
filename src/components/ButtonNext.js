@@ -1,6 +1,8 @@
 import { type } from "@testing-library/user-event/dist/type";
+import { useQuiz } from "../contexts/QuizContext";
 
-function ButtonNext({ answer, dispatch, index, numQuestions }) {
+function ButtonNext() {
+  const { answer, dispatch, index, numQuestions } = useQuiz();
   if (answer === null) return null;
   if (index < numQuestions - 1)
     return (

@@ -1,6 +1,7 @@
-import { type } from "@testing-library/user-event/dist/type";
+import { useQuiz } from "../contexts/QuizContext";
 
-function StartScreen({ numQuestions, dispatch }) {
+function StartScreen() {
+  const { numQuestions, dispatch } = useQuiz();
   return (
     <div className="start">
       <h2>Welcome to The React Quiz!</h2>

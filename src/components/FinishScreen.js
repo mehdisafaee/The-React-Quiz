@@ -1,6 +1,8 @@
 import { type } from "@testing-library/user-event/dist/type";
+import { useQuiz } from "../contexts/QuizContext";
 
-function FinishScreen({ points, maxPossiblePoints, highscore, dispatch }) {
+function FinishScreen() {
+  const { points, maxPossiblePoints, highscore, dispatch } = useQuiz();
   const percentage = Math.ceil((points / maxPossiblePoints) * 100);
   let emoji;
   if (percentage === 100) emoji = "🥇";
